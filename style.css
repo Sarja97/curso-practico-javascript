@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.cabecera{
+    width: 100%;
+    height: 300px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 12%, rgba(99, 224, 216, 0.63) 50%, rgba(0, 0, 0, 0.493) 86%), url(./header.jpg);
+    /* background-image: url(./header.jpg); */
+    text-align: center;
+    background-attachment: contain;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid rgb(68, 235, 235);
+}
+.cabecera h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: whitesmoke;
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.603);
+    
+}
+.cabecera p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    color: rgb(180, 179, 179);
+    padding: 25px 0 30px 0;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+body{
+    width: 100%;
+    height: auto;
+    background: rgb(57,57,57);
+    background: radial-gradient(circle, rgba(57,57,57,1) 0%, rgba(0,0,0,0.9743084733893558) 100%), url(./body_background.jpg);
+    background-size: contain;
+    background-attachment: ;
+}
+.titles{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+    margin-bottom: 15px;
+    color: rgb(236, 230, 230);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 4px 0 4px 0;
+    border-radius: 8px;
+}
+.boton{
+    width: 300px;
+    /* height: 15px; */
+    border-radius: 12px;
+    align-self: center;
+    background-color: #63e0d89a;
+    margin: 15px 0 15px 0;
+    box-shadow: 0 0 6px 0;
+    font-family: 'Varela Round', sans-serif;
+}
+.input-box{
+    width: 150px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: rgb(209, 199, 199);
+    margin-bottom: 5px;
+    align-self: center;
+}
+
+
+.square{
+    width: 500px;
+    height: auto;
+    background: rgba(60, 125, 120, 0.753);
+    background: radial-gradient(circle, rgba(60, 125, 120, 0.692) 0%, rgba(0, 0, 0, 0.644) 100%), url(./section.jpg);
+    background-size: contain;
+    border-radius: 8px;
+    box-shadow: 0 0 7px 0;
+    margin: 40px auto;
+    padding: 20px 15px 20px 15px;
+}
+.square .square-text{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin-bottom: 20px;
+    color: rgb(230, 224, 224);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 4px 0 4px 0;
+    border-radius: 8px;
+}
+
+.figure-form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.triangle{
+    width: 500px;
+    height: auto;
+    background: rgba(60, 125, 120, 0.753);
+    background: radial-gradient(circle, rgba(60, 125, 120, 0.692) 0%, rgba(0, 0, 0, 0.644) 100%), url(./section.jpg);
+    border-radius: 8px;
+    box-shadow: 0 0 7px 0;
+    margin: 40px auto;
+    padding: 20px 15px 20px 15px;
+}
+.triangle .triangle-text{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin-bottom: 20px;
+    color: rgb(230, 224, 224);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 4px 0 4px 0;
+    border-radius: 8px;
+}
+
+.circle{
+    width: 500px;
+    height: auto;
+    background: rgba(60, 125, 120, 0.753);
+    background: radial-gradient(circle, rgba(60, 125, 120, 0.692) 0%, rgba(0, 0, 0, 0.644) 100%), url(./section.jpg);
+    background-size: contain;
+    border-radius: 8px;
+    box-shadow: 0 0 7px 0;
+    margin: 40px auto;
+    padding: 20px 15px 20px 15px;
+}
+.circle .circle-text{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin-bottom: 20px;
+    color: rgb(230, 224, 224);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 4px 0 4px 0;
+    border-radius: 8px;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(68, 235, 235);
+}
+
+.author{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    color: black;
+    text-align: center; 
+    padding-top: 45px;
+}
+.author a{
+    text-decoration: none;
+    color: black;
+}
